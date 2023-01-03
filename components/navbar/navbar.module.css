@@ -1,0 +1,37 @@
+/* .nav {
+    background-color: rgb(244, 212, 212);
+} */
+
+.navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 4px 0;
+}
+
+.logo{
+    font-family: 'Teko', sans-serif;
+    font-size: 26px;
+    color: black;
+}
+
+.logoDots {
+    color: #0081C9;
+    font-size: 48px;
+    line-height: 50%;
+}
+
+.ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #6c6d6d;
+}
+
+.ul li:hover{
+    color: blue;
+}
