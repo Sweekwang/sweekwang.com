@@ -31,7 +31,7 @@ export default function Home() {
         <div className={Style.heroSection}>
           <div className={Style.heroLeft}>
             <div className={Style.heroLeftContent}>
-              <p>Hello I'm</p>
+              <p>Hello I&apos;m</p>
               <h1>SWEE KWANG</h1>
               <p>Junior iOS developer with UIKit and SwiftUI experiences. I love building mobile and web application which can make life simplier and easier.</p>
             </div>
