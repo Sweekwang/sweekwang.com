@@ -1,0 +1,43 @@
+.heroSection {
+    display: flex;
+    height: 90vh;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.heroLeft {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+
+.heroLeftContent {
+    width: 100%;
+    margin-bottom: 160px;
+    padding: 28px 24px;
+    background-color: #caeaf2;
+}
+
+
+.heroRight img {
+    position: absolute;
+    height: 80%;
+    width: 480px;
+    object-fit: contain;
+    object-position: bottom;
+    vertical-align: middle;
+    overflow: visible;
+    left: -240px;
+    bottom: 0;
+    -webkit-filter: drop-shadow(0px 7px 29px #eff8fb);
+    filter: drop-shadow(0px -5px 28px #cbdbdf);
+    /* drop-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.heroRight {
+    position: relative;
+    width: 50%;
+    height: 100%;
+   
+}

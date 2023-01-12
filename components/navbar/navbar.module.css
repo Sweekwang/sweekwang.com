@@ -2,13 +2,20 @@
     background-color: rgb(244, 212, 212);
 } */
 
+.nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
 .navContent {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 4px 0;
+    padding: 4px 24px;
 }
 
 .logo{
