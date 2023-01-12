@@ -38,7 +38,11 @@ export default function Home() {
           </div>
 
           <div className={Style.heroRight}>
-          <Image src="/home/sweekwang.png" width={420} height={550}/>
+          <Image 
+            alt="Chua Swee Kwang"
+            src="/home/sweekwang.png" 
+            width={420} 
+            height={550}/>
           </div>
         </div>
       </main>
