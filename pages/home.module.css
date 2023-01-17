@@ -14,13 +14,26 @@
 
 .heroLeftContent {
     width: 100%;
-    margin-bottom: 160px;
+    margin-bottom: 100px;
     padding: 28px 24px;
-    background-color: #caeaf2;
+    background-color: #d9eff57d;
 }
 
+.heroLeftContent h1 {
+    margin-bottom: 4px;
+}
 
-.heroRight img {
+.heroCaption {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.heroDescription{
+    margin-right: 120px;
+    font-size: 18px;
+}
+
+.myImage{
     position: absolute;
     height: 80%;
     width: 480px;
@@ -35,9 +48,204 @@
     /* drop-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
+@media only screen and (max-width: 800px) {
+
+    .heroDescription{
+        font-size: 14px;
+        margin-right: 90px;
+    }
+
+    .myImage { 
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .heroLeftContent {
+        margin-bottom: 0px
+    }
+
+    .heroLeftContent h1 {
+        font-size: 28px;
+    }
+    
+
+    .heroDescription{
+        font-size: 14px;
+    }
+
+    .myImage { 
+        height: 400px;
+    }
+}
+
 .heroRight {
     position: relative;
     width: 50%;
     height: 100%;
    
+}
+
+.logoDiv {
+    position: relative;
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    top: 50%;
+    z-index: -1;
+}
+
+.logoGroup1,
+.logoGroup2,
+.logoGroup3,
+.logoGroup4 {
+    display: flex;
+    position: absolute;
+}
+
+.logoGroup1 {
+    background-color: var(--main-bg-color);
+    left: 0px;
+    animation-name: group-one-animation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.logoGroup2 {
+    background-color: var(--main-bg-color);
+    left: 496px;
+    animation-name: group-two-animation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.logoGroup3 {
+    background-color: var(--main-bg-color);
+    left: 992px;
+    animation-name: group-three-animation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.logoGroup4 {
+    background-color: var(--main-bg-color);
+    left: 1418px;
+    animation-name: group-four-animation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.logoDiv img{
+    margin-right: 24px;
+    opacity: 0.5;
+}
+
+@keyframes group-one-animation {
+    0% {
+        left: 0px;
+    }
+
+    25% {
+        left: -496px;
+        opacity: 1;
+    }
+
+    26% {
+        opacity: 0;
+    }
+
+    27% {
+        left: 992px;
+        opacity: 0;
+    }
+
+    28% {
+        opacity: 1;
+    }
+
+    50% {
+        left: 992px;
+    }
+
+    100% {
+        left: 1px;
+    }
+}
+
+@keyframes group-two-animation {
+    0% {
+        left: 496px;
+    }
+
+    50% {
+        left: -496px;
+        opacity: 1;
+    }
+
+    51%{
+        opacity: 0;
+    }
+    
+    52% {
+        left: 992px;
+        opacity: 0;
+    }
+
+    53% {
+        opacity: 1;
+    }
+
+    75% {
+        left: 992px;
+    } 
+
+    100% {
+        left: 495px;
+        opacity: 1;
+    }
+}
+
+@keyframes group-three-animation {
+    0% {
+        left: 992px;
+        opacity: 1;
+    }
+
+    75% {
+        left: -496px;
+        opacity: 1;
+    }
+
+    76%{
+        opacity: 0;
+    }
+    
+    77%{
+        left: 992px;
+        opacity: 0;
+    }
+
+    78%{
+        opacity: 1;
+    }
+}
+
+@keyframes group-four-animation {
+    0% {
+        left: 1488px;
+        opacity: 1;
+    }
+
+    100% {
+        left: -496px;
+        opacity: 1;
+    }
 }
