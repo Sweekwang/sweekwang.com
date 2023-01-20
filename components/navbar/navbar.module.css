@@ -7,6 +7,7 @@
     width: 100%;
     left: 0;
     right: 0;
+    z-index: 99;
 }
 
 .navContent {
@@ -16,6 +17,15 @@
     max-width: 1300px;
     margin: 0 auto;
     padding: 4px 24px;
+}
+
+.menu {
+    display: none;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
 }
 
 .logo{
@@ -41,4 +51,50 @@
 
 .ul li:hover{
     color: blue;
+}
+
+.sidebar {
+    position: absolute;
+    height: 100vh;
+    background-color: #eff8fb;
+    z-index: 98;
+    padding: 28px 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    width: 100%;
+}
+.sidebar ul li {
+    padding: 12px 60px 12px 12px;
+    margin: 12px 8px 12px 18px;
+}
+
+.sidebar ul li:hover {
+    cursor: pointer;
+    background-color: #ddedf3;
+}
+
+.isMenuHidden {
+    display: none;
+}
+
+@media only screen and (max-width: 650px) {
+    .navContent {
+        align-items: center;
+    }
+
+    .menu {
+        display: block;
+        margin-right: 18px;
+    }
+
+    .menu:hover {
+        cursor: pointer;
+        background-color: rgba(213, 234, 247, 0.366);
+    }
+
+    .ul {
+        display: none;
+    }
 }
