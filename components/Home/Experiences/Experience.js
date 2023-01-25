@@ -48,7 +48,8 @@ const Experience = () => {
             <div className={style.experienceTab}>
                 {
                     data.map((job, index) => (
-                        <div 
+                        <div
+                            key={index}
                             className={[style.tabContainer, selectedIndex === index ? style.tabSelected:null].join(' ')}
                             onClick={() => {updateIndex(index)}}>
                             <p>{job.tabbarTitle}</p>
