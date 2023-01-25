@@ -1,0 +1,157 @@
+.experience {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 84px 0;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.experienceTab {
+    display: flex;
+    margin-top: 24px;
+}
+
+.tabContainer {
+    cursor: pointer;
+    padding-left: 12px;
+    border-left: rgb(92, 109, 116) solid 3px;
+    color: rgb(92, 109, 116);
+    margin-right: 16px;
+}
+
+.tabSelected {
+    border-left: blue solid 6px;
+    font-weight: bold;
+    color: blue
+}
+
+.experienceContainer {
+    display: flex;
+    margin-top: 42px;
+    border-radius: 24px;
+}
+
+.leftContainer {
+    flex-grow: 1;
+    width: 60%;
+}
+
+.leftContainer h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.leftContainer {
+    font-size: 18px;
+}
+
+.countryP {
+    font-size: 28px;
+}
+
+.description {
+    margin-top: 12px;
+    margin-right: 56px;
+    text-align: justify;
+}
+
+.ImageContainer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px #888888;
+    transition: 1s;
+}
+
+.rightContainer{
+    width: 40%;
+}
+
+.ImageContainer:hover {
+    box-shadow: 20px 20px #888888;
+}
+
+.ImageContainer img{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 950px) {
+    .experienceContainer {
+        flex-direction: column;
+    }
+
+    .leftContainer {
+        width: 100%;
+    }
+
+    .rightContainer{
+        width: 100%;
+        padding: 28px 0;
+    }
+
+    .ImageContainer {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .myImage {
+        height: 200px;
+    }
+
+    .ImageContainer:hover {
+        box-shadow: none;
+    }
+
+    .description {
+        margin-right: 0px;
+    }
+
+    .experienceContainer {
+        margin-top: 36px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .title {
+        font-size: 38px;
+    }
+
+    .tabContainer {
+        font-size: 14px;
+    }
+    
+
+    .leftContainer h3 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
+    .leftContainer {
+        font-size: 14px;
+    }
+    
+    .countryP {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .tabContainer {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 302px) {
+    .tabContainer {
+        font-size: 8px;
+    }
+}
