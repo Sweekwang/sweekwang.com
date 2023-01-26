@@ -21,12 +21,13 @@ const Projects = () => {
                         </div>
                         <div className={style.titleContent}>
                             <p>I created BTT Basic Theory Test to change to way of preparing for driving theory test. Instead of using book, student can just open up their phone and prepare and learn stuff regrading driving in Singapore.</p>
-                            <p className={style.disclaimer}><b>Disclaimer</b>: The android version of it is created by <a href="https://www.linkedin.com/in/sweeliang/" target="_blank">Swee Liang</a></p>
+                            <p className={style.disclaimer}><b>Disclaimer</b>: The android version of it is created by <a href="https://www.linkedin.com/in/sweeliang/" target="_blank" rel="noreferrer">Swee Liang</a></p>
 
                             <div className={style.downloadDiv}>
                                 <a 
                                     href="https://play.google.com/store/apps/details?id=com.sweeliang.bttbasictheorytest&hl=en_SG&gl=US"
-                                    target="_blank">
+                                    target="_blank"
+                                    rel="noreferrer">
                                     <Image 
                                         alt="BTT download on appstore"
                                         src="/home/appstore.svg"
@@ -35,7 +36,8 @@ const Projects = () => {
                                 </a>
                                 <a 
                                     href="https://play.google.com/store/apps/details?id=com.sweeliang.bttbasictheorytest&hl=en_SG&gl=US"
-                                    target="_blank">
+                                    target="_blank"
+                                    rel="noreferrer">
                                     <Image 
                                         alt="BTT download on appstore"
                                         src="/home/googleplay.png"

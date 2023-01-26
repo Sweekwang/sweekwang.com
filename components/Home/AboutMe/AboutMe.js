@@ -9,7 +9,7 @@ const AboutMe = () => {
 
             <div className={style.aboutContent}>
                 <div className={style.left}>
-                    <p>My name is Chua Swee Kwang. I am passionate about Application Development particularly interested in Apple ecosystem. I'm currently working as an iOS developer in Monstarlab and studying Master of Computer Science at University of Illinois Urbana-Champaign.</p>
+                    <p>My name is Chua Swee Kwang. I am passionate about Application Development particularly interested in Apple ecosystem. I&apos;m currently working as an iOS developer in Monstarlab and studying Master of Computer Science at University of Illinois Urbana-Champaign.</p>
                     
                     <div className={style.education}>
                         <p><b>Education Background</b></p>
