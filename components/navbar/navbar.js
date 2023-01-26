@@ -10,16 +10,16 @@ const Navbar = () => {
     const liItems = (
         <Fragment>
             <li>
-                <Link href='/'>Home</Link>
+                <Link href='#home'>Home</Link>
             </li>
             <li>
-                <Link href='/'>Experiences</Link>
+                <Link href='#experiences'>Experiences</Link>
             </li>
             <li>
-                <Link href='/'>Projects</Link>
+                <Link href='#projects'>Projects</Link>
             </li>
             <li>
-                <Link href='/'>About me</Link>
+                <Link href='#aboutme'>About me</Link>
             </li>
         </Fragment>
     );
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                    <p><Link href="/">Let&apos;s Talk</Link></p>
+                    <p><Link href="#aboutme">Let&apos;s Talk</Link></p>
                 </div>
             </div>
 

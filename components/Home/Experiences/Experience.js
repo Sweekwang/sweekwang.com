@@ -42,7 +42,7 @@ const Experience = () => {
     };
 
     return (
-        <div className={style.experience}>
+        <div className={style.experience} id="experiences">
             <h2 className={style.title}>Experiences</h2>
 
             <div className={style.experienceTab}>

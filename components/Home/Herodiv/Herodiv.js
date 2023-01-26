@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const HeroDiv = () => {
     return (
-<div className={Style.heroSection}>
+<div className={Style.heroSection} id="home">
           <div className={Style.heroLeft}>
             <div className={Style.heroLeftContent}>
               <p className={Style.heroCaption}>Hello I&apos;m</p>

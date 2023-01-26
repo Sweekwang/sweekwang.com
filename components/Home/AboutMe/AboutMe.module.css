@@ -1,0 +1,45 @@
+.aboutme {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 84px 0;
+}
+
+.aboutme h3{
+    font-size: 38px;
+}
+
+.aboutContent {
+    display: flex;
+    gap: 48px;
+    margin-top: 24px;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
+.education {
+    margin-top: 24px;
+}
+
+.education ul{
+    margin-left: 24px;
+}
+
+@media only screen and (max-width: 800px) {
+    .aboutContent {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+    
+    .right {
+        width: 100%;
+    }
+}

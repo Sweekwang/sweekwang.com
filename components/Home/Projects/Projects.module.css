@@ -1,0 +1,119 @@
+.projects{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.featureStyle {
+    display: flex;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.rightFeature {
+    width: 50%;
+}
+
+.leftFeature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.ImageContainer {
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+    display: flex;
+    width: 100%;
+    margin: 12px;
+}
+
+.featuredImage {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.containerTitle {
+    border-bottom: solid rgb(202, 201, 206) 1px;
+}
+
+.containerTitle h3{
+    font-size: 32px;
+    font-weight: 300;
+    padding: 12px;
+}
+
+.captionBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 12px;
+}
+
+.captionBar p {
+    color: rgb(149, 149, 149);
+}
+
+.titleContent {
+    padding: 6px 12px;
+}
+
+.disclaimer {
+    color: rgb(179, 179, 179);
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.downloadDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap: 0 12px;
+    margin-left: 32px;
+    margin-top: 12px;
+}
+
+@media only screen and (max-width: 800px) {
+    .featureStyle {
+        flex-direction: column;
+    }
+
+    .rightFeature {
+        width: 100%;
+    }
+
+    .leftFeature {
+        width: 100%;
+    }
+}
+
+.cardContent {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cardBody p {
+    margin: 12px 0;
+}
+
+.cardBody:hover {
+    filter: brightness(0.8)
+}

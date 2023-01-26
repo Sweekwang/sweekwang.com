@@ -3,6 +3,9 @@ import HeroDiv from '../components/Home/Herodiv/Herodiv'
 import Experience from '../components/Home/Experiences/Experience'
 import Navbar from '../components/navbar/navbar'
 import Style from './home.module.css'
+import Projects from '../components/Home/Projects/Projects'
+import Footer from '../components/footer/footer'
+import AboutMe from '../components/Home/AboutMe/AboutMe'
 
 export default function Home() {
   return (
@@ -28,7 +31,11 @@ export default function Home() {
       <main>
         <HeroDiv/>
         <Experience/>
+        <Projects/>
+        <AboutMe/>
       </main>
+
+      <Footer/>
     </>
   )
 }
